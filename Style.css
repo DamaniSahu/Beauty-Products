@@ -1,0 +1,578 @@
+body{
+	background-image: url(../Images/bg.jpg);
+	background-size: 100% 696px;
+	padding: 0;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+/* Start homepage nav coding */
+nav{
+	width: 100%;
+	height:	290px;
+	background-color: rgba(0, 0, 0, 0.8);
+	float: left;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+#domain_name{
+			padding: 0;
+			margin: 0;
+			font-size: 80px;
+			color: pink;
+			text-align: center;
+		
+}
+
+#menu{
+	width: 750px;
+	height: 70px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+#nav_item{
+			width:	150px ;
+			height: 70px;
+			border-width: 2px;
+			border-style: solid;
+			border-color: white;
+			box-sizing: border-box;
+			text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: monospace;
+
+}
+/* End homepage nav coding */
+
+/* Start homepage section coding */
+#home_section{
+		width: 700px;
+		height: 400px;
+		box-sizing: border-box;
+		float: right;
+		background-image: url(../Images/s_bg.png);
+}
+
+#logo{
+	width: 180px;
+	height: 180px;
+	box-sizing: border-box;
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	margin-left: 150px;
+	margin-top: 90px;
+}
+
+#logo_text{
+	margin: 0;
+	padding: 0;
+	color: hotpink;
+	font-size: 180px;
+	font-family: monospace;
+	margin-top: -20px;
+}
+
+#domain{
+		margin: 0;
+		padding: 0;
+	  	color: white;
+	  	font-size: 40px;
+	  	font-family: verdana;
+	  	text-align: center;
+	  	margin-left: 150px;
+
+}
+/* end home page section coding */
+
+/* Start Sign Up page nav coding */
+
+#sign_Up_domain_name{
+			margin: 0;
+			padding: 0;
+			color: hotpink;
+			text-align: center;
+			font-size: 60px;
+			font-family: sans-serif;
+}
+
+/* End Sign Up page nav coding */
+
+/* Start Sign Up page section coding */
+
+#sign_up_section{
+				width: 700px;
+				height: 400px;
+				box-sizing: border-box;
+				float: right;
+				background-image: url(../Images/s_bg.png);
+				padding: 40px;
+}
+
+#sign_up_fieldset{
+		width: 380px;
+		height: 300px;
+		border-width: 3px;
+		border-color: hotpink;
+		border-style: solid;
+		margin-left: 180px;
+		padding: 25px;
+}
+
+#sign_up_legend{
+		font-family: Papyrus;
+		color: hotpink;
+		font-size: 30px;
+		font-weight: bold;
+}
+
+#sign_up_form{
+			color: white;
+			font-family: Century Gothic;
+			font-size: 15px;
+}
+
+#sign_up_Username{
+			width: 100%;
+			height: 30px;
+			background-color: inherit;
+			border: none;
+			border-width: 1px;
+			border-style: solid;
+			border-color: white;
+			margin-top: 3px;
+			color: white;
+			font-size: 18px;
+			margin-bottom: 15px;
+}
+
+#m_no{
+	width: 100%;
+	height: 30px;
+	background-color: inherit;
+	border: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+#sign_up_Password{
+			width: 100%;
+			height: 30px;
+			background-color: inherit;
+			border: none;
+			border-width: 1px;
+			border-style: solid;
+			border-color: white;
+			margin-top: 10px;
+			color: white;
+			font-size: 18px;
+}
+
+#sign_up_button{
+				width: 130px;
+				height: 40px;
+				font-size: 15px;
+				float: right;
+				font-family: Century Gothic;
+				margin-top: 25px;
+				background-color: inherit;
+				border: none;
+				color: white;
+				border-width: 1px;
+				border-style: solid;
+				border-color: white;
+}
+
+/* Start Sign Up page section coding */
+
+/* Start login page nav coding */
+
+#domain_name{
+			margin: 0;
+			padding: 0;
+			color: hotpink;
+			text-align: center;
+			font-size: 60px;
+			font-family: sans-serif;
+}
+
+/* End login page nav coding */
+
+/* Start login page section coding */
+
+#login_section{
+				width: 700px;
+				height: 400px;
+				box-sizing: border-box;
+				float: right;
+				background-image: url(../Images/s_bg.png);
+				padding: 40px;
+}
+
+
+#login_fieldset{
+		width: 380px;
+		height: 260px;
+		border-width: 3px;
+		border-color: white;
+		border-style: solid;
+		margin-left: 180px;
+		padding: 25px;
+}
+
+#login_legend{
+		font-family: Papyrus;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+}
+
+#login-form{
+			color: white;
+			font-family: Century Gothic;
+			font-size: 22px;
+}
+
+#login-Username{
+			width: 100%;
+			height: 30px;
+			background-color: inherit;
+			border: none;
+			border-width: 1px;
+			border-style: solid;
+			border-color: white;
+			margin-top: 10px;
+			color: white;
+			font-size: 18px;
+			margin-bottom: 20px;
+}
+
+#login-Password{
+			width: 100%;
+			height: 30px;
+			background-color: inherit;
+			border: none;
+			border-width: 1px;
+			border-style: solid;
+			border-color: white;
+			margin-top: 10px;
+			color: white;
+			font-size: 18px;
+}
+
+#Login-button{
+				width: 130px;
+				height: 40px;
+				font-size: 18px;
+				float: right;
+				font-family: Century Gothic;
+				margin-top: 25px;
+				background-color: inherit;
+				border: none;
+				color: white;
+				border-width: 1px;
+				border-style: solid;
+				border-color: white;
+}
+
+/* End login page section coding */
+
+/* Start contract page section coding */
+
+#contact_section{
+				width: 700px;
+				height: 400px;
+				box-sizing: border-box;
+				float: right;
+				background-image: url(../Images/s_bg.png);
+				padding: 40px;
+}
+
+
+#contact_fieldset{
+		width: 380px;
+		height: 260px;
+		border-width: 3px;
+		border-color: white;
+		border-style: solid;
+		margin-left: 180px;
+		padding: 25px;
+}
+
+#contact_legend{
+		font-family: Papyrus;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+}
+
+#Contact{
+		color: hotpink;
+		font-size: 20px;
+		font-style: normal;
+		font-family: century gothic;
+		line-height: 35px;
+		margin-top: 35px;
+}
+/* End contract page section coding */
+
+/* Start product page section coding */
+
+#product_section{
+				width: 100%;
+				height: 2900px;
+				border-width: 1px;
+				border-style: solid;
+				border-color: red;
+				float: left;
+				box-sizing: border-box;
+}
+
+#brands{
+		width: 100%;
+		height: 400px;
+		float: left;
+		box-sizing: border-box;
+		background-color: rgba(255, 255, 255, 0.8);
+}
+
+#brand_heading{
+			color: black;
+			text-align: center;
+			font-family: century gothic;
+			font-size: 50px;
+}
+
+#brand_pic{
+			width: 200px;
+			height: 80px;
+			float: left;
+			box-sizing: border-box;
+			border-width: 1px;
+			border-style: solid;
+			border-color: black;
+			margin: 26px;
+			margin-top: 10px;
+			background-color: white;
+}
+
+#search{
+		width:  60%;
+		height: 50px;
+		float: left;
+		box-sizing: border-box;
+		margin-left: 20%;
+		margin-right: 20%;
+		font-size: 22px;
+		margin-top: 20px;
+		border: none;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ccc;
+		font-family: monospace;
+		padding: 10px;
+		background-image: url(../Images/search.png);
+		background-size: 40px 40px;
+		background-repeat: no-repeat;
+		background-position: right;
+
+}
+
+#Maybelline_products{
+	 		width: 100%;
+	 		height: 500px;
+	 		float: left;
+	 		box-sizing: border-box;
+	 		background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Maybelline{
+			color: white;
+			text-align: center;
+			font-family: Papyrus;
+			font-size: 35px;
+}
+
+#Maybelline_Products_pic{
+						width: 250px;
+						height: 320px;
+						float: left;
+						box-sizing: border-box;
+						border-width: 2px;
+						border-style: solid;
+						border-color: white;
+						margin: 32px;
+
+}
+
+
+#Loreal_products{
+	 		width: 100%;
+	 		height: 500px;
+	 		float: left;
+	 		box-sizing: border-box;
+	 		background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Loreal{
+			color: white;
+			text-align: center;
+			font-family: Papyrus;
+			font-size: 35px;
+}
+
+#Loreal_Products_pic{
+						width: 250px;
+						height: 320px;
+						float: left;
+						box-sizing: border-box;
+						border-width: 2px;
+						border-style: solid;
+						border-color: white;
+						margin: 32px;
+
+}
+
+
+#Dove_products{
+	 		width: 100%;
+	 		height: 500px;
+	 		float: left;
+	 		box-sizing: border-box;
+	 		background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Dove{
+			color: white;
+			text-align: center;
+			font-family: Papyrus;
+			font-size: 35px;
+}
+
+#Dove_Products_pic{
+						width: 250px;
+						height: 320px;
+						float: left;
+						box-sizing: border-box;
+						border-width: 2px;
+						border-style: solid;
+						border-color: white;
+						margin: 32px;
+
+}
+
+
+#Lakme_products{
+	 		width: 100%;
+	 		height: 500px;
+	 		float: left;
+	 		box-sizing: border-box;
+	 		background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Lakme{
+			color: white;
+			text-align: center;
+			font-family: Papyrus;
+			font-size: 35px;
+}
+
+#Lakme_Products_pic{
+						width: 250px;
+						height: 320px;
+						float: left;
+						box-sizing: border-box;
+						border-width: 2px;
+						border-style: solid;
+						border-color: white;
+						margin: 32px;
+
+}
+
+
+#Lotus_products{
+	 		width: 100%;
+	 		height: 500px;
+	 		float: left;
+	 		box-sizing: border-box;
+	 		background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Lotus{
+			color: white;
+			text-align: center;
+			font-family: Papyrus;
+			font-size: 35px;
+}
+
+#Lotus_Products_pic{
+						width: 250px;
+						height: 320px;
+						float: left;
+						box-sizing: border-box;
+						border-width: 2px;
+						border-style: solid;
+						border-color: white;
+						margin: 32px;
+
+}
+
+#product_name{
+			color: white;
+			text-align: center;
+			font-family: Merienda;
+			padding: 0;
+			margin: 0;
+			margin-top: 5px;
+			font-size: 20px;
+}
+
+#product_price{
+				padding: 0;
+				margin: 0;
+				color: white;
+				margin: 3px;
+				float: left;
+				font-size: 18px;
+				font-family:Merienda ;
+}
+
+#buy{
+	padding: 0;
+	margin: 0;
+	color: white;
+	margin: 3px;
+	float: right;
+	font-size: 18px;
+	font-family:Merienda ;
+
+}
+
+/* End product page section coding */
+
+/* Start footer coding */
+footer{
+		color: black;
+		width: 100%;
+		height: 60px;
+		box-sizing: border-box;
+		float: left;
+		background-color: rgba(255, 255, 255, 0.8);
+		text-align: center;
+}
+
+
+
+/* End footer coding */
